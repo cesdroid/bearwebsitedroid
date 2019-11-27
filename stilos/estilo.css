@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #0080FF;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background: #0080FF;
+    height: 80px;
+}
+.ancho{
+    width: 80%;
+    height: 80px;
+    /*background: #ffff;*/
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 80px;
+    /*background: black;*/
+    float: left;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color: #fff;
+    font-size: 65px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    width: 70%;
+    height: 80px;
+    /*background: blue;*/
+    float: left;
+    text-align: right;
+    padding-top: 33px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li ul li{
+    display: inline-block;
+}
+nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 80px;
+}
+
+nav li:hover > ul{
+    display: block
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;   
+    font-family: rare;
+}
+nav ul li a:hover {
+    color: black;
+}
+@font-face{
+	font-family: rare;
+	src:url(../fuente/Pixelmania.ttf);
+}
+.columnas{
+    width: 100%;
+    margin: auto;
+}
+.columnasx3{
+    width: 33.333%;
+    float: left;
+    padding: 18px 18px;
+    box-sizing: border-box;
+}
+.columnasx3 img{
+    width: 100%;
+}
